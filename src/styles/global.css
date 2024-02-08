@@ -1,0 +1,12 @@
+:root {
+    --color-primary: #6880FF;
+    --color-primary-hover: #7C91FF;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    
+
+    background-color: #000000;
+    color: #FFFFFF;
+
+    font-family: Inter;
+}

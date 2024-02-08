@@ -1,0 +1,28 @@
+.ProjectCard { 
+    border: 1px solid var(--color-white);
+    border-radius: 25px;
+    width: 48%;
+    padding: 1rem;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.cardParagraph {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+
+@media (max-width: 390px) {
+    .ProjectCard {
+        display: flex;
+        flex-direction: column;
+        
+        width: 90%;
+    }
+}

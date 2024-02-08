@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins&family=Roboto&display=swap');
+
+.tittle-one {
+    font-weight: 800;
+    font-size: 3rem;
+
+}
+
+.tittle-two {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.tittle-three {
+    font-weight: bold;
+    font-size: 1.375rem;
+}
+
+.font-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.font-link {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #6880FF;
+
+}
+
+.font-paragraph {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.button {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+
+    padding: 0.6875rem 1.6875rem;
+    width: fit-content;
+    border: none;
+    border-radius: 12px;
+
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.user{
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.4375rem;
+    color: var(--color-primary);
+    font-family: Poppins;
+ }

@@ -1,0 +1,28 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.bannerOne {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    gap: 30px;
+}
+
+
+
+@media (max-width: 390px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .bannerImage {
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+
+}

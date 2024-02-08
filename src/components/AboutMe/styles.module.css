@@ -1,0 +1,21 @@
+.contant {
+    display: flex;
+
+}
+
+.contant p {
+    text-align: justify;
+    line-height: 1.875rem;
+}
+
+.contantTittle {
+    width: 100%;
+}
+
+
+@media (max-width: 390px) {
+  .contant{
+    flex-direction: column;
+    gap: 2rem;
+  } 
+}

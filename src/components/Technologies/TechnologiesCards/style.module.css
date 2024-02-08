@@ -1,0 +1,13 @@
+.cards {
+    display: flex;
+    width: 21rem;
+    
+    border: 1px solid var(--color-white);
+    border-radius: 25px;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 1.875rem 1rem;
+}
+

@@ -1,0 +1,17 @@
+.ProjectContant {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-top: 2rem;
+
+    justify-content: space-between;
+    
+}
+
+
+@media (max-width: 390px) {
+    .ProjectContant {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,39 @@
+.footerContant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-block: 0.0625rem solid var(--color-white);
+    
+    margin: 2rem 0;
+    padding: 3rem 0;
+}
+
+
+.footerContact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footerContact ul {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 390px) {
+    .footerContant {
+        max-width: 100%;
+        flex-direction: column;
+
+        ul {
+            justify-content: center;
+        }
+
+        p {
+            font-size: 0.8rem;
+            margin-top: 2rem;
+        }
+    }
+
+}

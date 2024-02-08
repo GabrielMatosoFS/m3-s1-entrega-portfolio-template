@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header li {
+    display: flex;
+    gap: 4rem;
+    font-size: var(--font-Label);
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: var(--font-Paragraph);
+}
+
+@media (max-width: 390px) {
+    .header {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
